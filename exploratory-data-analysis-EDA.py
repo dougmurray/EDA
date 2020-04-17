@@ -21,3 +21,15 @@ mean = np.mean(first_data)
 std = np.std(first_data)
 std_of_mean = stat.sem(first_data)
 # covariance = np.cov(first_data, second_data) # for 2D datasets
+
+# Describe data statistics
+print(' ')
+print('overview', stat.describe(dissolved_oxygen_con))
+print('number_or_elements', number_or_elements)
+print('minimum', minimum)
+print('maximum', maximum)
+print('peak_to_peak', peak_to_peak)
+print('mean', mean)
+print('std', std)
+print('std_of_mean', std_of_mean)
+# print('covariance', covariance)
