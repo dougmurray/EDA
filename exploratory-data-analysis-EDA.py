@@ -24,7 +24,7 @@ std_of_mean = stat.sem(first_data)
 
 # Describe data statistics
 print(' ')
-print('overview', stat.describe(dissolved_oxygen_con))
+print('overview', stat.describe(first_data))
 print('number_or_elements', number_or_elements)
 print('minimum', minimum)
 print('maximum', maximum)
