@@ -28,4 +28,6 @@ It includes:
 
 Usually all 4 plots are displayed in a single window for better viewing.
 
-It should be noted that randomness is the most critical assumption that needs to be true.  If not all usual statistical tests will be invalid.
+It should be noted that *randomness is the most critical assumption* that needs to be true.  If not, then all usual statistical tests will be invalid.
+
+#### Run sequence plot
