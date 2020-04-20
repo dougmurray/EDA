@@ -9,7 +9,7 @@ import scipy.stats as stat
 # possibly scipy.optimize optimization.
 # Note you can also implement pandas if needed.
 
-first_data = np.array([8.8, 3.1, 4.2, 6.2, 7.6, 3.6, 5.2, 8.6, 6.3, 1.8, 6.8, 3.9]) # mg/L
+first_data = np.array([8.8, 3.1, 4.2, 6.2, 7.6, 3.6, 5.2, 8.6, 6.3, 1.8, 6.8, 3.9])
 # number_of_elements = first_data.size # 1D
 number_or_elements = first_data.shape # multipleD
 # row, col = first_data.shape # 2D
